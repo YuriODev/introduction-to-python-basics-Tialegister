@@ -4,6 +4,6 @@
 a= int(input("Enter a number: "))
 b= int(input("Enter another number: "))
 
-check= "yes" * (a % b == 0) or "no" * (a % b != 0)
+check= "Yes" * (a % b == 0) or "No" * (a % b != 0)
 
 print(check)
