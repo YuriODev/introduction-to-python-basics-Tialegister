@@ -1,7 +1,10 @@
 # Exercise 9
 # Your solution comes here
 
-h = int(input())
-m = int(input())
+hour = int(input())
+min = int(input())
 s = int(input())
-print((h % 12 * 360 + m * 360 / 60 + s * 360 / 3600) % 360)
+
+angle = (hour * 30) + (min * 0.5) + (s * 0.0083333)
+
+print(angle)
