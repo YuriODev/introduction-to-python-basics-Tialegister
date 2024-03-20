@@ -1,7 +1,7 @@
 # Exercise 3
 # Your solution comes here
 
-Time= int(input("Enter the number of seconds since midnight: "))
+Time= int(input())
 
 Hours= Time//3600
 Mins = (Time%3600)//60

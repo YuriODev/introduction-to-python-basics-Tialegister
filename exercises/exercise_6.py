@@ -1,9 +1,9 @@
 # Exercise 6
 # Your solution comes here
 
-a= int(input("Enter a number: "))
-b= int(input("Enter another number: "))
+a= int(input())
+b= int(input())
 
-check= "Yes" * (a % b == 0) or "No" * (a % b != 0)
+check= "YES" * (a % b == 0) or "NO" * (a % b != 0)
 
 print(check)
